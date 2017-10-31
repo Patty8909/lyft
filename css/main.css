@@ -1,3 +1,49 @@
 /*
  * Estilos de tu proyecto
  */
+
+ /*setear*/
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+/*estilos del footer*/
+ footer {
+     background-color: #333447;
+     height: 450px;
+ }
+ .vertical {
+     /*outline: 1px solid blue;*/
+     display: inline-block;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     width: 100px;
+     margin-left: 100px;
+     margin-top: 50px;
+     
+ }
+ ul li a {
+     /*outline: 1px solid red;*/
+     text-decoration: none; 
+     color: #fff;
+     line-height: 40px; 
+ }
+ .copyright {
+     text-align: center;
+     color: #fff;
+     /*outline: 1px solid yellow;*/
+     margin-top: 100px;
+
+ }
+ .align {
+     text-align: center;
+
+ }
+ .line {
+     width: 760px;
+     margin-top: 100px;
+ }
+ .hover:hover {
+     color: #FF00BF;
+ }
