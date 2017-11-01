@@ -3,10 +3,7 @@
  */
 
  /*setear*/
-* {
-    margin: 0 auto;
-    padding: 0;
-}
+
 /*Clases reutilizables*/
 * {
     font-family: 'Montserrat', sans-serif;
@@ -81,6 +78,79 @@ li {
     margin-left: 21px;
     padding: 14px;
 }
+/*estilos de la sección 1*/
+.phrase1 {
+    /*outline: 1px solid blue;*/
+    display: inline-block;
+    width: 365px;
+    transform: translateY(-320px);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.position1 {
+    display: inline-block;
+}
+.content1 {
+    /*outline: 1px solid red;*/
+}
+.video1 {
+    /*outline: 2px solid green;*/
+    display: inline-block;
+   
+}
+/*estilos de la sección 2*/
+.phrase2 {
+    /*outline: 1px solid blue;*/
+    display: inline-block;
+    width: 365px;
+    transform: translateY(-320px);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.position2 {
+    display: inline-block;
+}
+.content2 {
+    /*outline: 1px solid red;*/
+}
+.video2 {
+    /*outline: 2px solid green;*/
+    display: inline-block;
+   
+}
+/*estilos de la sección 3*/
+.phrase3 {
+    /*outline: 1px solid blue;*/
+    display: inline-block;
+    width: 365px;
+    transform: translateY(-320px);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.position3 {
+    display: inline-block;
+}
+.content3 {
+    /*outline: 1px solid red;*/
+}
+.video3 {
+    /*outline: 2px solid green;*/
+    display: inline-block;   
+}
+/*estilos del texto de las secciones*/
+.font-small {
+    font-size: 12px;
+    font-weight: bold;
+}
+.font-large {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.line-h {
+    line-height: 20px;
+}
 
 /*estilos del footer*/
  footer {
@@ -93,16 +163,16 @@ li {
      list-style: none;
      padding: 0;
      margin: 0;
-     width: 100px;
-     margin-left: 100px;
-     margin-top: 50px;
+     width: 155px;
+     margin-left: 80px;
+     margin-top: 20px;
      
  }
- ul li a {
+ .hover {
      /*outline: 1px solid red;*/
      text-decoration: none; 
      color: #fff;
-     line-height: 40px; 
+     line-height: 11px; 
  }
  .copyright {
      text-align: center;
@@ -124,5 +194,32 @@ li {
  }
  .fa {
      color: #fff;
-     border: 1px;
+     border: 2px solid #fff;
+     border-radius: 50%;
+     padding: 10px;
+     margin: 10px 25px;
+     /*outline: 1px solid yellow;*/
+     text-align: center;
+ }
+ .gplay {
+     margin: 30px 0;
+ }
+ .microsoft {
+     margin-bottom: 30px;
+ }
+ .images-list {
+     margin-left: 200px;
+ }
+ .icons-list {
+     /*outline: 1px solid green;*/
+     text-align: center;
+ }
+ .line-container {
+     /*outline: 1px solid red;*/
+ }
+ .align {
+     /*outline: 1px solid orangered;*/
+ }
+ .bold {
+     font-weight: bold;
  }
